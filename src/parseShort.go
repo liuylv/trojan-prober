@@ -2,9 +2,9 @@ package main
 
 import (
 	"crypto/tls"
-	"github.com/liuylv/trojan-prober/src/log"
 	"strings"
 	"time"
+	"github.com/liuylv/trojan-prober/src/log"
 )
 
 func parseResponseFromShort(tlsConn *tls.Conn, trojanStatus *TrojanStatus) {
