@@ -2,8 +2,8 @@ package main
 
 import (
 	"crypto/tls"
-	"github.com/liuylv/trojan-prober/src/log"
 	"strings"
+	"github.com/liuylv/trojan-prober/src/log"
 )
 
 func parseResponseFromALPN(tlsConn *tls.Conn, trojanStatus *TrojanStatus) {
