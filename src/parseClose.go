@@ -4,7 +4,6 @@ import (
 	"crypto/tls"
 	"io"
 	"time"
-
 	"github.com/liuylv/trojan-prober/src/log"
 )
 
