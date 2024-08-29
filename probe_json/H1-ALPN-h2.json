@@ -1,0 +1,4 @@
+{
+  "alpn": "h2",
+  "base_content": "GET / HTTP/1.1\\r\\nHost: www.test.com\\r\\n\\r\\n"
+}
