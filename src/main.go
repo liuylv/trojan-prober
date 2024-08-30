@@ -455,7 +455,7 @@ func main() {
 		executeProbe(probeJson)
 	}
 
-	// Checks after probes
+	// Check Trojan states
 	if isTrojan == Definitely {
 		printPossibleTrojan()
 		return
