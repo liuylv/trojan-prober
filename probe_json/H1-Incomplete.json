@@ -1,4 +1,0 @@
-{
-  "alpn": "http/1.1",
-  "base_content": "GET / HTTP/1.1\\r\\n"
-}
