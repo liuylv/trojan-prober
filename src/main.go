@@ -27,7 +27,7 @@ var (
 	logLevel     int
 
 	// Other parameters
-	serverAddr  string         //Combination of targetServer and targetPort
+	serverAddr  string         // Combination of targetServer and targetPort
 	wg          sync.WaitGroup // WaitGroup for synchronizing goroutines
 	isTrojan    State          // Indicates whether the server is identified as a Trojan
 	startTime   time.Time      // Time to start capturing packets
