@@ -17,10 +17,12 @@ Options:
 ### Example:  
 For demonstration, please refer to the examples given below:
 
-#### Example 1:  the case of probing trojan-gfw tunnel with a caddy HTTPS server deployed in the backend. The probe used here is **./src/probe_json/H1-Close.json**.  
+#### Example 1: 
+The case of probing trojan-gfw tunnel with a caddy HTTPS server deployed in the backend. The probe used here is **./src/probe_json/H1-Close.json**.  
 ![the case of probing trojan-gfw tunnel with a caddy HTTPS server deployed in the backend](./picture/trojangfw+caddy.png)
 
-#### Example 2: the case of probing a real caddy HTTPS server. The probes used here are all the probes located at **./src/probe_json/** 
+#### Example 2: 
+The case of probing a real caddy HTTPS server. The probes used here are all the probes located at **./src/probe_json/** 
 ![the case of probing a real caddy HTTPS server](./picture/caddy.png)
 
 ## How to Cite:
