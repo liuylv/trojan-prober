@@ -9,9 +9,9 @@ Trojan-Prober is a prototype implementation of our TrojanProbe that can be used 
 ```
 Options:    
     --targetServer: Target server IP address or domain name. (string type, required)   
-    --targetPort:  Target server port. (string type, required)    
+    --targetPort: Target server port. (string type, required)    
     --probe: Prefix of the probe JSON file. Use a specific name to run that probe, or "all" to run all probes automatically. (string type, required)    
-    --log:  Log level: 0 for all logs, 1 for crucial logs only, Default is 1. (int type, optional)    
+    --log: Log level: 0 for all logs, 1 for crucial logs only, Default is 1. (int type, optional)    
 ```
 
 ### Example:  
