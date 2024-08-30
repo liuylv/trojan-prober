@@ -17,8 +17,8 @@ Options:
 ## Example:  
 For demonstration, please refer to the examples given below:
 
-#### Example1: we use the all probes to detect a caddy server.  
-![we use the probe **H1-Close** to detect a caddy server](./picture/caddy.png)
+#### Example1: we use all probes to detect a caddy server.  
+![we use all probes to detect a caddy server](./picture/caddy.png)
 
 #### Example2:  we use the probe **H1-Close** to detect a trojan-gfw tunnel with caddy as the backend.  
 ![we use the probe **H1-Close** to detect a trojan-gfw tunnel with caddy as the backend](./picture/trojangfw+caddy.png)
