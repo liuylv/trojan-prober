@@ -23,7 +23,7 @@ For demonstration, please refer to the examples given below:
 #### Example2:  we use the probe **H1-Close** to detect a trojan-gfw tunnel with caddy as the backend.  
 ![we use the probe **H1-Close** to detect a trojan-gfw tunnel with caddy as the backend](./picture/trojangfw+caddy.png)
 
-## Refer to Our Work:
+## Cite TrojanProbe:
 #### If you use our tool, please cite the paper as follows:  
 ```
 @article{lv2024trojan,  
