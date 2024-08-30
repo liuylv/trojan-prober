@@ -17,11 +17,11 @@ Options:
 ### Example:  
 For demonstration, please refer to the examples given below:
 
-#### Example1: we use all probes to detect a caddy server.  
-![we use all probes to detect a caddy server](./picture/caddy.png)
+#### Example 1:  the case of probing trojan-gfw tunnel with a caddy HTTPS server deployed in the backend. The probe used here is **./src/probe_json/H1-Close.json**.  
+![the case of probing trojan-gfw tunnel with a caddy HTTPS server deployed in the backend](./picture/trojangfw+caddy.png)
 
-#### Example2:  we use the probe **H1-Close** to detect a trojan-gfw tunnel with caddy as the backend.  
-![we use the probe **H1-Close** to detect a trojan-gfw tunnel with caddy as the backend](./picture/trojangfw+caddy.png)
+#### Example 2: the case of probing a real caddy HTTPS server. The probes used here are all the probes located at **./src/probe_json/** 
+![the case of probing a real caddy HTTPS server](./picture/caddy.png)
 
 ## How to Cite:
 #### If you use our tool, please cite the paper as follows:  
