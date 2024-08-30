@@ -144,7 +144,7 @@ func executeProbe(probe string) (bool, string) {
 
 // Load and parse Probe JSON file
 func loadProbeData(probe string) (*ProbeData, error) {
-	jsonPath := filepath.Join("probe_json", probe+".json")
+	jsonPath := filepath.Join("src/probe_json", probe+".json")
 	jsonData, err := os.ReadFile(jsonPath)
 	if err != nil {
 		return nil, fmt.Errorf("failed to read file %s: %v", jsonPath, err)
