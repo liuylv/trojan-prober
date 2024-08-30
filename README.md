@@ -1,10 +1,10 @@
 # trojan-prober
 Trojan-Prober is a prototype implementation of our TrojanProbe that can be used to actively probe and fingerprint Trojan tunnels by their implementation tricks.  
 
-## Build the tool:    
+## How to Build:    
 ``CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -tags "full" -o trojan-prober ./src``  
 
-## Usage:    
+## How to Use:    
 ``./trojan-prober --targetServer [target server] --targetPort [target port] --probe [probe name] --log [log level] ``   
 ```
 Options:    
@@ -14,7 +14,7 @@ Options:
     --log:  Log level: 0 for all logs, 1 for crucial logs only, Default is 1. (int type, optional)    
 ```
 
-## Example:  
+### Example:  
 For demonstration, please refer to the examples given below:
 
 #### Example1: we use all probes to detect a caddy server.  
@@ -23,7 +23,7 @@ For demonstration, please refer to the examples given below:
 #### Example2:  we use the probe **H1-Close** to detect a trojan-gfw tunnel with caddy as the backend.  
 ![we use the probe **H1-Close** to detect a trojan-gfw tunnel with caddy as the backend](./picture/trojangfw+caddy.png)
 
-## Citation:
+## How to Cite:
 #### If you use our tool, please cite the paper as follows:  
 ```
 @article{lv2024trojan,  
