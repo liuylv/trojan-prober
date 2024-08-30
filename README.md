@@ -13,7 +13,7 @@ Options:
     -probe: Prefix of the probe JSON file. Use a specific name to run that probe, or "all" to run all probes automatically. (string type, required)  
     -log:  Log level: 0 for all logs, 1 for crucial logs only, Default is 1. (int type, optional)  
 
-========== Example:
+========== Example:  
 For specific usage, please refer to the examples given in the picture folder.    
 Example1: picture/caddy.png: refers to sending probes automatically to detect the caddy server.  
 Example2: picture/trojangfw+caddy1.png, trojangfw+caddy2.png: refer to using a single "H1-Close" to detect the trojan-gfw instance with caddy as the backend.  
