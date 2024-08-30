@@ -17,7 +17,7 @@ Options:
 @article{lv2024trojan,  
 title={TrojanProbe: Fingerprinting Trojan Tunnel Implementations by Actively Probing Crafted HTTP Requests},  
 author={Lv, Liuying and Zhou, Peng},  
-journal={under review}, 
+journal={under review},   
 year={2024},  
 publisher={Elsevier}  
 }
