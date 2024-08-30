@@ -5,7 +5,7 @@ Trojan-Prober is a prototype implementation of our TrojanProbe that can be used 
 ``CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -tags "full" -o trojan-prober ./src``  
 
 ## How to Use:    
-``./trojan-prober --targetServer xxx --targetPort xxx --probe xxx --log x ``   
+``./trojan-prober --targetServer [IP/DNS] --targetPort [number] --probe [path to json] --log [0|1] ``   
 ```
 Options:    
     --targetServer: Target server IP address or domain name. (string type, required)   
