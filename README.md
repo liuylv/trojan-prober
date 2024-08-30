@@ -5,7 +5,7 @@ Trojan-Prober is a probing tool which can detect trojan servers.
 CGO_ENABLED=1 GOOS=linux GOARCH=amd64 go build -tags "full" -o trojan-prober ./src  
 
 ========== Usage:    
-./trojan-prober -serverAddr [host:port] -serverName [server name] -probe [probe name] -log [log level]  
+./trojan-prober -serverAddr [server address] -serverName [server name] -probe [probe name] -log [log level]  
 Options:    
     -serverAddr:  Target server address in the format "host:port". (string type, required)  
     -serverName:  Server name for TLS handshake. (string type, required)  
