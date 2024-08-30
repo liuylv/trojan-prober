@@ -271,7 +271,7 @@ func checkTrojanStates(trojanStatus *TrojanStatus, state State) []string {
 	return possibleTrojanTypes
 }
 
-// Get a list of possible HTTP servers based on the given state
+// Get a list of possible HTTPS servers based on the given state
 func checkHTTPServers(httpServerStatus *HTTPServer, state State) []string {
 	possibleHTTPServers := []string{}
 	if httpServerStatus.Nginx == state {
