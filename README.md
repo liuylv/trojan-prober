@@ -30,11 +30,13 @@ The case of probing a real caddy HTTPS server. The probes used here are all the 
 ## How to Cite:
 #### If you use our tool, please cite the paper as follows:  
 ```
-@article{lv2024trojan,  
-title={TrojanProbe: Fingerprinting Trojan Tunnel Implementations by Actively Probing Crafted HTTP Requests},  
-author={Lv, Liuying and Zhou, Peng},  
-journal={Computers & Security (under review)},   
-year={2024},  
-publisher={Elsevier}  
+@article{lv2025trojanprobe,
+  title={TrojanProbe: Fingerprinting Trojan tunnel implementations by actively probing crafted HTTP requests},
+  author={Lv, Liuying and Zhou, Peng},
+  journal={Computers \& Security},
+  volume={148},
+  pages={104147},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
